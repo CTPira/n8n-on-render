@@ -5,6 +5,7 @@ services:
     plan: free
     region: oregon
     dockerfilePath: ./Dockerfile
+    startCommand: n8n start
     envVars:
       - key: DB_POSTGRESDB_HOST
         sync: false
